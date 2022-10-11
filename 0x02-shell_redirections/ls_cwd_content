@@ -1,0 +1,18 @@
+total 56
+drwxr-xr-x 2 root root 297 Oct 11 08:22 .
+drwxr-xr-x 6 root root 121 Oct 11 01:34 ..
+-rwxr--r-- 1 root root  30 Oct 11 01:40 0-hello_world
+-rwxr--r-- 1 root root  48 Oct 11 06:00 16-whatsnext
+-rwxr--r-- 1 root root  38 Oct 11 05:44 17-hidethisword
+-rwxr--r-- 1 root root  38 Oct 11 05:25 19-AZ
+-rwxr--r-- 1 root root  21 Oct 11 05:03 20-hiago
+-rwxr--r-- 1 root root  16 Oct 11 04:57 21-reverse
+-rwxr--r-- 1 root root  41 Oct 11 04:47 22-users_and_homes
+-rwxr--r-- 1 root root  29 Oct 11 02:00 2-hellofile
+-rwxr--r-- 1 root root  39 Oct 11 03:51 3-twofiles
+-rwxr--r-- 1 root root  35 Oct 11 03:55 4-lastlines
+-rwxr--r-- 1 root root  35 Oct 11 04:01 5-firstlines
+-rwxr--r-- 1 root root  40 Oct 11 04:12 6-third_line
+-rwxr--r-- 1 root root  36 Oct 11 08:23 8-cwd_state
+-rw-r--r-- 1 root root   0 Oct 11 08:25 ls_cwd_content
+-rw-r--r-- 1 root root  19 Oct 11 01:45 README.md
