@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ls -all | grep drw | wc -l
+ls -R | wc -l
