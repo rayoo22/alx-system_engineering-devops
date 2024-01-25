@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# lists contents of a directory
+# excluding the number an hyphen in the begining of a filename
+
+files="$(ls)"
+for f in $files;
+do
+	echo "$f" | cut -d "-" -f2
+done
