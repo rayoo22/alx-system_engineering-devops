@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# printing Best School using until
+counter=0
+
+until [ $counter -eq 9 ]; do
+	echo "Best School"
+	((counter++))
+done
