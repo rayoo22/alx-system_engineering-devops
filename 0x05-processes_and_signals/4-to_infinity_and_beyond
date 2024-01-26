@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script printing text indefinitely, in each iteration, add sleep 2
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
