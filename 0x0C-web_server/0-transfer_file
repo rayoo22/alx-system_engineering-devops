@@ -12,7 +12,7 @@ SERVER_IP=$2
 USERNAME=$3
 SSH_KEY=$4
 
-scp -o StrictHostKeyChecking=no -i "$SSH_KEY" $FILE_PATH" "$USERNAME@$SERVER_IP":~
+scp -o StrictHostKeyChecking=no -i "$SSH_KEY" "$FILE_PATH" "$USERNAME@$SERVER_IP":~
 
 # Check if scp command was successful
 if [ "$?" -eq 0 ]; then
