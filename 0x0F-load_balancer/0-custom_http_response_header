@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 # configure Nginx so that its http response contains a custom header
 # this will configure a new ubuntu machine
 
