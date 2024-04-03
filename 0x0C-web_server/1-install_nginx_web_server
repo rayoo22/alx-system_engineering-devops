@@ -2,8 +2,14 @@
 # Install nginx on web server; nginx should be listening on port 80
 # Querying Nginx at its root (/) with a GET request (requesting a page)
 
-apt-get -y update
-apt-get -y install nginx
-ufw allow 'Nginx HTTP'
-echo 'Hello World!' > /var/www/html/index.nginx-debian.html
-service nginx start
+sudo apt -y update
+sudo apt install -y nginx
+sudio sed -i 's/listen 80 default_server;/listen 80;/' /etc/nginx/sites-available/default
+sudo service nginx restart
+
+nginx_pid=$(pidof nginx)
+if [ -n "$nginx_pid" ]; then
+	echo "Nginx is running."
+else
+	echo "Nginx is not running."
+fi
