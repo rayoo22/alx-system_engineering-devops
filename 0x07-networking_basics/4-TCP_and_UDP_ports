@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# a bash script that displays listening ports
-sudo netstat -tunpl
