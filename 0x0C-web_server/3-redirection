@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# configure nginx server so that /redirect_me is redirecting to another page
-
-ADD301_REDIRECT="\\\tlocation /redirect_me {\n\t\t return 301 https://google.com;\n\t}\n"
-
-sudo apt-get -y update
-sudo apt-get -y install nginx
-echo "Hello World!" | sudo tee /usr/share/nginx/html/index.htmlsudo sed -i "30i $ADD301_REDIRECT" /etc/nginx/sites-available/default
-sudo service nginx start

@@ -1,3 +1,0 @@
-Host 18.210.33.213
-	IdentifyFile ~/.ssh/id_rsa
-	User root
