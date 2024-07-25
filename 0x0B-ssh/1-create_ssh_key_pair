@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # creates rsa key, of 4096 bytes, with passphrase
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096 -P betty -f school
